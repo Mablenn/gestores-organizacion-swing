@@ -7,6 +7,6 @@
 <p>El valor de la alineación puede ser LEFT, RIGHT o CENTER.</p>
 <p>panel.setLayout(new FlowLayout(FlowLayout.LEFT));</p>
 <h3>FlowLayout(int alineacion, int sH, int sV);</h3>
-<p>Además del centrado, permite la separación horizontal y vertical entre componentes.</p>
+<p>Además de la alineación, permite la separación horizontal y vertical entre componentes.</p>
 <p>panel.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));</p>
 
