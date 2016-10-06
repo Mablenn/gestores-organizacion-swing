@@ -22,4 +22,18 @@
 <h3>GridLayout(int nFilas, int nColumnas, int sHor, sVert);</h3>
 <p>Además del número de filas y columnas, permite la separación horizontal y vertical entre componentes.</p>
 <p>panel.setLayout(new GridLayout(2, 5, 5, 10));</p>
+<br>
+<h2>BORDER LAYOUT:</h2>
+<p>Este gestor de organización permite colocar componentes alrededor de los bordes de un contenedor. Los bordes son NOTH, SOUTH, EAST, WEAST, CENTER. Es decir, el contenedor es dividido en cinco zonas.</p>
+<p>En este tipo de gestor es necesario especificar la zona donde ubicamos el componente cuando se añada al contenedor.</p>
+<p>Constructores:</p>
+<h3>BorderLayout()</h3>
+<p>JPanel panel = new JPanel();</p>
+<p>panel.setLayout(BorderLayout);</p>
+<h3>BorderLayout(int sHor, sVert)</h3>
+<p>Permite crear espacios de separación entre los controles con los valores indicados.</p>
+<p>Para especificar la zona de ubicación del control:</p>
+<p>panel.add(new JButton("Boton1"), BorderLayout.NORTH);</p>
+<p>panel.add(new JButton("Boton1"), BorderLayout.SOUTH);</p>
+
 
