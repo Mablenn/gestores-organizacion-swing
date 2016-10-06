@@ -13,6 +13,7 @@
 <p>Además de la alineación, permite la separación horizontal y vertical entre componentes.</p>
 <p>JPanel panel = new JPanel();</p>
 <p>panel.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));</p>
+<hr>
 
 <h2>GRID LAYOUT:</h2>
 <p>Distribuye los componentes en forma de table en el contenedor, compuesta por columnas y filas. Los componentes se van distribuyendo desde la primera celda en la parte superior izquierda y se van posicionando fila a fila hasta la celda más a la derecha de la última fila.</p>
@@ -29,7 +30,8 @@
 <p>Además del número de filas y columnas, permite la separación horizontal y vertical entre componentes.</p>
 <p>JPanel panel = new JPanel();</p>
 <p>panel.setLayout(new GridLayout(2, 5, 5, 10));</p>
-<br>
+<hr>
+
 <h2>BORDER LAYOUT:</h2>
 <p>Este gestor de organización permite colocar componentes alrededor de los bordes de un contenedor. Los bordes son NOTH, SOUTH, EAST, WEAST, CENTER. Es decir, el contenedor es dividido en cinco zonas.</p>
 <p>En este tipo de gestor es necesario especificar la zona donde ubicamos el componente cuando se añada al contenedor.</p>
@@ -47,5 +49,9 @@
 <p>panel.add(new JButton("Boton3"), BorderLayout.EAST);</p>
 <p>panel.add(new JButton("Boton4"), BorderLayout.WEAST);</p>
 <p>panel.add(new JButton("Boton5"), BorderLayout.CENTER);</p>
+<hr>
+
+<h2>BOX LAYOUT:</h2>
+
 
 
