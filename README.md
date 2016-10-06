@@ -1,3 +1,4 @@
+<h1 style="text-align:center">Gestores de organización (layout)</h1>
 <h2>FLOW LAYOUT:</h2>
 <p>Distribuye los componentes de izquierda a derecha y de arriba a abajo según su tamaño y alineando al centro el contenido, si no se indica lo contrario en el constructor.</p>
 <p>Constructores:</p>
