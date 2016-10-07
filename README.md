@@ -1,4 +1,4 @@
-<h1 style="text-align:center">Gestores de organización (layout)</h1>
+<h1>Gestores de organización (layout manager)</h1>
 <h2>FLOW LAYOUT:</h2>
 <p>Distribuye los componentes de izquierda a derecha y de arriba a abajo según su tamaño y alineando al centro el contenido, si no se indica lo contrario en el constructor.</p>
 <p>Constructores:</p>
@@ -52,7 +52,13 @@
 <hr>
 
 <h2>BOX LAYOUT:</h2>
-<p>Este layout manager no está el la libreria java.awt, sino que se encuentra dentro de la librería javax.swing. Utilizando este layout podemos colocar los componentes en vertical u horizontal.</p>
+<p>Este layout manager no está en la libreria java.awt, sino que se encuentra dentro de la librería javax.swing. Utilizando este layout podemos colocar los componentes en posición vertical, uno encima de otro, o en posición horizontal, uno a continuación de otro, indicando el eje deseado. Puede servir para mostrar toda una fila o columna de un tipo de componente, por ejemplo un panel dentro de un contenedor que contenga una fila de botones en vertical.</p>
+<p>Constructor:</p>
+<h3>BoxLayout(Container contenedor, int eje)</h3>
+<p>El primer parámetro que recibe el constructor es el contenedor donde se ubicará el control.</p>
+<p>El segundo parámetro será el eje, vertical u horizontal.</p>
+
+
 
 
 
