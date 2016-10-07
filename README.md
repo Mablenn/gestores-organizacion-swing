@@ -52,6 +52,7 @@
 <hr>
 
 <h2>BOX LAYOUT:</h2>
+<p>Este layout manager no está el la libreria java.awt, sino que se encuentra dentro de la librería javax.swing.</p>
 
 
 
