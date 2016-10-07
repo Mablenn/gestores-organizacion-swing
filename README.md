@@ -57,7 +57,8 @@
 <h3>BoxLayout(Container contenedor, int eje)</h3>
 <p>El primer parámetro que recibe el constructor es el contenedor donde se ubicará el control.</p>
 <p>El segundo parámetro será el eje, vertical u horizontal.</p>
-
+<p>JPanel panel = new JPanel();</p>
+<p>panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS);</p>
 
 
 
