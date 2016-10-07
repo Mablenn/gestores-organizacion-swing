@@ -59,6 +59,12 @@
 <p>El segundo parámetro será el eje, vertical u horizontal.</p>
 <p>JPanel panel = new JPanel();</p>
 <p>panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS);</p>
+<p>panel.add(new JButton("Boton1")</p>
+<p>panel.add(new JButton("Boton2")</p>
+<p>panel.add(new JButton("Boton3")</p>
+<p>panel.add(new JButton("Boton4")</p>
+<p>panel.add(new JButton("Boton5")</p>
+
 
 
 
