@@ -33,7 +33,7 @@
 <hr>
 
 <h2>BORDER LAYOUT:</h2>
-<p>Este gestor de organización permite colocar componentes alrededor de los bordes de un contenedor. Los bordes son NOTH, SOUTH, EAST, WEAST, CENTER. Es decir, el contenedor es dividido en cinco zonas.</p>
+<p>Este gestor de organización permite colocar componentes alrededor de los bordes de un contenedor. Los bordes son NORTH, SOUTH, EAST, WEAST, CENTER. Es decir, el contenedor es dividido en cinco zonas.</p>
 <p>En este tipo de gestor es necesario especificar la zona donde ubicamos el componente cuando se añada al contenedor.</p>
 <p>Constructores:</p>
 <h3>BorderLayout()</h3>
