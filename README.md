@@ -55,7 +55,7 @@
 <p>Este layout manager no está en la libreria java.awt, sino que se encuentra dentro de la librería javax.swing. Utilizando este layout podemos colocar los componentes en posición vertical, uno encima de otro, o en posición horizontal, uno a continuación de otro, indicando el eje deseado. Puede servir para mostrar toda una fila o columna de un tipo de componente, por ejemplo un panel dentro de un contenedor que contenga una fila de botones en vertical.</p>
 <p>El paquete javax.swing incluye un tipo de contenedor llamado Box con el que se pueden controlar los componentes insertados en él. La clase Box posee varios métodos estáticos con los que se puede controlar el posicionamiento de los componentes que forma el contenedor.</p>
 <p>De este modo se puede utilizar el gestor BoxLayout de varias formas. Asignando el tipo de gestor de administración al contenedor principal, a través del método .setLayout(), o creando un objeto Box y utilizando sus métodos estáticos para el posicionamiento de los elementos.</p>
-<p><<strong>A través de un objeto Box:</strong></p>
+<p><strong>A través de un objeto Box:</strong></p>
 <p>Box contenedorHorizontal = Box.createHorizontalBox;</p>
 <p>Box contenedorVertical = Box.createVerticalBox;</p>
 <p>//Añadir controles a cada uno de los contenedores</p>
@@ -66,7 +66,7 @@
 <p>//Añadir los Box al contenedor principal</p>
 <p>ventanaPrincipal.getContentPane().add(contenedorHorizontal);</p>
 <p>ventanaPrincipal.getContentPane().add(contenedorVertical);</p>
-<p><<strong>Asignando el tipo de layout al contenedor principal:</strong></p>
+<p><strong>Asignando el tipo de layout al contenedor principal:</strong></p>
 <p>Constructor:</p>
 <h3>BoxLayout(Container contenedor, int eje)</h3>
 <p>El primer parámetro que recibe el constructor es el contenedor donde se ubicará el control.</p>
