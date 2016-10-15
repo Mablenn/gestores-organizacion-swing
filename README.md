@@ -56,8 +56,8 @@
 <p>El paquete javax.swing incluye un tipo de contenedor llamado Box con el que se pueden controlar los componentes insertados en él. La clase Box posee varios métodos estáticos con los que se puede controlar el posicionamiento de los componentes que forma el contenedor.</p>
 <p>De este modo se puede utilizar el gestor BoxLayout de varias formas. Asignando el tipo de gestor de administración al contenedor principal, a través del método .setLayout(), o creando un objeto Box y utilizando sus métodos estáticos para el posicionamiento de los elementos.</p>
 <p><strong>A través de un objeto Box:</strong></p>
-<p>Box contenedorHorizontal = Box.createHorizontalBox;</p>
-<p>Box contenedorVertical = Box.createVerticalBox;</p>
+<p>Box contenedorHorizontal = Box.createHorizontalBox();</p>
+<p>Box contenedorVertical = Box.createVerticalBox();</p>
 <p>//Añadir controles a cada uno de los contenedores</p>
 <p>	contenedorHorizontal.add(new JButton("Boton 1");</p>
 <p>	contenedorHorizontal.add(new JButton("Boton 2");</p>
