@@ -26,6 +26,7 @@ public class Ejemplo01_flowlayout extends JFrame {
         this.getContentPane().add(new JButton("Cuarto boton"));
         //Hacer la ventana visible
         this.setVisible(true);
+	//Cierre de la ventana
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     
