@@ -1,19 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html>
+<head>
+<style>
+  *{margin:0padding:0}
+  .mb-container{padding:0 16px}
+</style>
+</head>
+  
 <h1>Gestores de organización (layout manager)</h1>
-<h2>FLOW LAYOUT:</h2>
-<p>Distribuye los componentes de izquierda a derecha y de arriba a abajo según su tamaño y alineando al centro el contenido, si no se indica lo contrario en el constructor.</p>
-<p>Constructores:</p>
-<h3>FlowLayout()</h3>
-<p>JPanel panel = new JPanel();</p>
-<p>	panel.setLayout(new FlowLayout());</p>	
-<h3>FlowLayout(int alineacion);</h3>
-<p>El valor de la alineación puede ser LEFT, RIGHT o CENTER.</p>
-<p>JPanel panel = new JPanel();</p>
-<p>panel.setLayout(new FlowLayout(FlowLayout.LEFT));</p>
-<h3>FlowLayout(int alineacion, int sH, int sV);</h3>
-<p>Además de la alineación, permite la separación horizontal y vertical entre componentes.</p>
-<p>JPanel panel = new JPanel();</p>
-<p>panel.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));</p>
+<div class="mb-container">
+  <h2>FLOW LAYOUT:</h2>
+  <p>Distribuye los componentes de izquierda a derecha y de arriba a abajo según su tamaño y alineando al centro el contenido, si no se indica lo contrario en el constructor.</p>
+  <p>Constructores:</p>
+  <h3>FlowLayout()</h3>
+  <p>JPanel panel = new JPanel();</p>
+  <p>	panel.setLayout(new FlowLayout());</p>	
+  <h3>FlowLayout(int alineacion);</h3>
+  <p>El valor de la alineación puede ser LEFT, RIGHT o CENTER.</p>
+  <p>JPanel panel = new JPanel();</p>
+  <p>panel.setLayout(new FlowLayout(FlowLayout.LEFT));</p>
+  <h3>FlowLayout(int alineacion, int sH, int sV);</h3>
+  <p>Además de la alineación, permite la separación horizontal y vertical entre componentes.</p>
+  <p>JPanel panel = new JPanel();</p>
+  <p>panel.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));</p>
 <hr>
+</div>
 
 <h2>GRID LAYOUT:</h2>
 <p>Distribuye los componentes en forma de table en el contenedor, compuesta por columnas y filas. Los componentes se van distribuyendo desde la primera celda en la parte superior izquierda y se van posicionando fila a fila hasta la celda más a la derecha de la última fila.</p>
@@ -79,6 +90,8 @@
 <p>panel.add(new JButton("Boton4")</p>
 <p>panel.add(new JButton("Boton5")</p>
 <hr>
+
+</html>
 
 
 
