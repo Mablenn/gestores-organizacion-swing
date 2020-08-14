@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html>
 <head>
-<style>
-  *{margin:0padding:0}
-  .mb-container{padding:0 16px}
-</style>
+
 </head>
   
 <h1>Gestores de organización (layout manager)</h1>
