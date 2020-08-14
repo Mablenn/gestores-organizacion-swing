@@ -4,7 +4,7 @@
 
 </head>
   
-<h1>Gestores de organización (layout manager)</h1>
+<h1 style="color:MediumSeaGreen">Gestores de organización (layout manager)</h1>
 <div class="mb-container">
   <h2>FLOW LAYOUT:</h2>
   <p>Distribuye los componentes de izquierda a derecha y de arriba a abajo según su tamaño y alineando al centro el contenido, si no se indica lo contrario en el constructor.</p>
