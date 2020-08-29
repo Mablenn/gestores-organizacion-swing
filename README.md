@@ -24,7 +24,7 @@
 </div>
 
 <h2>GRID LAYOUT:</h2>
-<p>Distribuye los componentes en forma de table en el contenedor, compuesta por columnas y filas. Los componentes se van distribuyendo desde la primera celda en la parte superior izquierda y se van posicionando fila a fila hasta la celda más a la derecha de la última fila.</p>
+<p>Los componentes se distribuyen en forma de tabla, compuesta por columnas y filas, en el contenedor. Los componentes se van distribuyendo desde la primera celda en la parte superior izquierda y se van posicionando fila a fila hasta la celda más a la derecha de la última fila.</p>
 <p>Constructores:</p>
 <h3>GridLayout()</h3>
 <p>Los controles se posicionarán en una sola fila.</p>
